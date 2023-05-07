@@ -1,0 +1,18 @@
+apm:
+  name: golang-seed-api
+
+api:
+  port: 3000
+  logLevel: DEBUG # DEBUG INFO FATAL
+  bodyLimit: 500kb
+
+database:
+  driver: mysql
+  schema: golangSeed
+  host: 127.0.0.1
+  port: 3306
+  username: user
+  password: pass
+  pool:
+    min: 1
+    max: 3
